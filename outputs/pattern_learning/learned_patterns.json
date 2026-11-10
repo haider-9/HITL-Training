@@ -1,0 +1,527 @@
+{
+  "schema_version": 2,
+  "source": "build_reference_index.build_index",
+  "purpose": "Transparent detection plan learned from all supplied JSON evidence and human review labels.",
+  "input_files": [
+    "human_checked.json",
+    "mechanical_data_out_5ee2d592b0fb4656bc69b46fa759c999.json",
+    "panel_data_out_5ee2d592b0fb4656bc69b46fa759c999.json",
+    "plumbing_data_out_5ee2d592b0fb4656bc69b46fa759c999.json",
+    "single_page_ocr_word_dict_5ee2d592b0fb4656bc69b46fa759c999.json",
+    "single_page_raw_detections_5ee2d592b0fb4656bc69b46fa759c999.json",
+    "single_page_schedule_data_5ee2d592b0fb4656bc69b46fa759c999.json",
+    "validation_dict_d7e081705adb4b20a0b45fcfecb673a2.json"
+  ],
+  "reference_pages": 153,
+  "reference_items": 593,
+  "what_to_detect": [
+    "mechanical, plumbing, and panel tags",
+    "door and panel references",
+    "keynote numbers when their geometry matches the learned gate",
+    "reference-only items that OCR should recover or flag as missed",
+    "visual detector classes such as tags, callouts, titles, and plan areas",
+    "schedule blocks that identify doors, keynotes, and other reference regions"
+  ],
+  "detection_rules": {
+    "reference_match": "match normalized OCR text to a reference item on the same PDF page",
+    "strict_detection": "retain matched references plus clean known-prefix equipment tags",
+    "geometry": "retain OCR bounding boxes and compare them with reference boxes",
+    "uncertain": "report plausible OCR text that cannot be confidently classified"
+  },
+  "counts": {
+    "by_category": {
+      "mechanical": 72,
+      "panel": 9,
+      "plumbing": 59,
+      "validation": 453
+    },
+    "by_discipline": {
+      "mechanical": 72,
+      "panel": 9,
+      "plumbing": 59,
+      "validation": 453
+    },
+    "by_pattern": {
+      "unused_bboxes": 158,
+      "unused_mechanical": 6,
+      "unused_plumbing": 1,
+      "used_bboxes": 295,
+      "used_mechanical": 65,
+      "used_plumbing": 58,
+      "verified_electrical_panel": 9,
+      "verified_mechanical_equipment": 1
+    },
+    "by_tag_prefix": {
+      "A": 4,
+      "AF": 1,
+      "B": 41,
+      "BT": 2,
+      "C": 73,
+      "CD": 2,
+      "CEF": 2,
+      "CR": 2,
+      "D": 21,
+      "DB": 1,
+      "E": 12,
+      "EG": 2,
+      "ET": 4,
+      "EV": 2,
+      "F": 7,
+      "FC": 2,
+      "FD": 1,
+      "FS": 1,
+      "FV": 1,
+      "G": 1,
+      "H": 54,
+      "HB": 1,
+      "HH": 1,
+      "HP": 50,
+      "IB": 1,
+      "IF": 1,
+      "IV": 1,
+      "L": 3,
+      "P": 4,
+      "PC": 3,
+      "PF": 1,
+      "PM": 1,
+      "S": 2,
+      "SG": 2,
+      "SS": 1,
+      "ST": 3,
+      "T": 12,
+      "TP": 1,
+      "TS": 4,
+      "TV": 1,
+      "WB": 1,
+      "WC": 2,
+      "WD": 1,
+      "WHP": 10,
+      "WM": 1,
+      "WR": 1,
+      "WT": 7
+    }
+  },
+  "learned_features": {
+    "tag_prefixes_by_discipline": {
+      "mechanical": {
+        "AF": 1,
+        "CD": 2,
+        "CEF": 2,
+        "CR": 2,
+        "DB": 1,
+        "EG": 2,
+        "EV": 2,
+        "FC": 2,
+        "HP": 50,
+        "IF": 1,
+        "IV": 1,
+        "L": 1,
+        "PF": 1,
+        "SG": 2
+      },
+      "panel": {
+        "H": 7
+      },
+      "plumbing": {
+        "BT": 2,
+        "ET": 4,
+        "FD": 1,
+        "FS": 1,
+        "FV": 1,
+        "HB": 1,
+        "HH": 1,
+        "IB": 1,
+        "L": 2,
+        "P": 4,
+        "PC": 3,
+        "PM": 1,
+        "S": 2,
+        "SS": 1,
+        "ST": 3,
+        "TP": 1,
+        "TS": 4,
+        "TV": 1,
+        "WB": 1,
+        "WC": 2,
+        "WD": 1,
+        "WHP": 10,
+        "WM": 1,
+        "WR": 1,
+        "WT": 7
+      },
+      "validation": {
+        "A": 4,
+        "B": 41,
+        "C": 73,
+        "D": 21,
+        "E": 12,
+        "F": 7,
+        "G": 1,
+        "H": 47,
+        "T": 12
+      }
+    },
+    "reference_geometry_by_category": {
+      "mechanical": {
+        "sample_count": 72,
+        "mean": {
+          "width": 29.0456,
+          "height": 7.6513,
+          "area": 224.7366,
+          "aspect_ratio": 3.7738
+        },
+        "median": {
+          "width": 32.175,
+          "height": 7.65,
+          "area": 248.7206,
+          "aspect_ratio": 4.0714
+        },
+        "min": {
+          "width": 11.7,
+          "height": 6.075,
+          "area": 81.6075,
+          "aspect_ratio": 1.6774
+        },
+        "max": {
+          "width": 46.26,
+          "height": 9.54,
+          "area": 441.3204,
+          "aspect_ratio": 4.8491
+        }
+      },
+      "panel": {
+        "sample_count": 9,
+        "mean": {
+          "width": 24.64,
+          "height": 7.9,
+          "area": 185.544,
+          "aspect_ratio": 3.3547
+        },
+        "median": {
+          "width": 26.82,
+          "height": 7.2,
+          "area": 192.0672,
+          "aspect_ratio": 3.5476
+        },
+        "min": {
+          "width": 12.42,
+          "height": 6.66,
+          "area": 139.0608,
+          "aspect_ratio": 0.8961
+        },
+        "max": {
+          "width": 32.58,
+          "height": 13.86,
+          "area": 234.576,
+          "aspect_ratio": 4.525
+        }
+      },
+      "plumbing": {
+        "sample_count": 59,
+        "mean": {
+          "width": 23.9186,
+          "height": 7.1847,
+          "area": 173.6918,
+          "aspect_ratio": 3.3166
+        },
+        "median": {
+          "width": 20.925,
+          "height": 7.425,
+          "area": 157.0388,
+          "aspect_ratio": 3.1071
+        },
+        "min": {
+          "width": 12.15,
+          "height": 6.075,
+          "area": 84.7463,
+          "aspect_ratio": 1.7419
+        },
+        "max": {
+          "width": 39.15,
+          "height": 8.1,
+          "area": 299.4975,
+          "aspect_ratio": 5.1176
+        }
+      },
+      "validation": {
+        "sample_count": 453,
+        "mean": {
+          "width": 292.277,
+          "height": 546.3763,
+          "area": 254650.4875,
+          "aspect_ratio": 1.4127
+        },
+        "median": {
+          "width": 456.1223,
+          "height": 369.5175,
+          "area": 167203.4066,
+          "aspect_ratio": 1.1238
+        },
+        "min": {
+          "width": 3.12,
+          "height": 7.92,
+          "area": 32.9472,
+          "aspect_ratio": 0.2714
+        },
+        "max": {
+          "width": 501.7059,
+          "height": 1701.0,
+          "area": 800272.4235,
+          "aspect_ratio": 5.703
+        }
+      }
+    }
+  },
+  "auxiliary_learning": {
+    "files": [
+      "single_page_ocr_word_dict_5ee2d592b0fb4656bc69b46fa759c999.json",
+      "single_page_raw_detections_5ee2d592b0fb4656bc69b46fa759c999.json",
+      "single_page_schedule_data_5ee2d592b0fb4656bc69b46fa759c999.json"
+    ],
+    "ocr": {
+      "pages": 1,
+      "word_count": 2252,
+      "unique_words": 532,
+      "mean_confidence": 0.95437,
+      "frequent_words": {
+        "\"": 201,
+        "'": 87,
+        ":": 72,
+        "-": 63,
+        ".": 54,
+        ",": 47,
+        "2": 45,
+        "1/2": 45,
+        "3": 44,
+        "6": 31,
+        "/": 28,
+        "1": 26,
+        "AT": 26,
+        "4": 26,
+        "7.1": 26,
+        "0": 22,
+        "SEE": 22,
+        "'-0": 21,
+        "'-6": 20,
+        "12": 19,
+        "7": 19,
+        "AND": 19,
+        "&": 18,
+        "5": 18,
+        "(": 17,
+        ")": 17,
+        "WITH": 15,
+        "FLOOR": 14,
+        "11": 14,
+        "PER": 14,
+        "TO": 13,
+        "ABOVE": 13,
+        "10": 12,
+        "8": 12,
+        "A9.1": 12,
+        "'-8": 11,
+        "9": 11,
+        "WALL": 11,
+        "FIRE": 11,
+        "FOR": 11,
+        "A": 10,
+        "6.5": 9,
+        "22.2": 9,
+        "13": 9,
+        "BUILDING": 9,
+        "3.5": 9,
+        "CONCRETE": 9,
+        "STEEL": 9,
+        "EXTERIOR": 9,
+        "8.1": 9
+      }
+    },
+    "visual_detectors": {
+      "pages": 1,
+      "class_counts": {
+        "Callout Reference": 1,
+        "Gridline Tag": 32,
+        "Indiv Drawing Title": 3,
+        "Keynote Area": 1,
+        "Legend/Key Area": 1,
+        "Notes/Specs Area": 1,
+        "Plan Area": 2,
+        "Sheet Number": 3,
+        "Sheet Title": 3,
+        "Tag 1 - Oval": 19,
+        "Tag 2 - Rectangle": 111,
+        "Tag 3 - Hexagon": 7,
+        "Tag 4 - Text": 3,
+        "Tag 5 - Circle": 10,
+        "Tag 7 - Rhomboid": 8,
+        "Tag 8 - Diamond": 27,
+        "Tag 9 - Triangle": 1,
+        "Title Block": 1,
+        "Type 1 - Call Out": 15,
+        "Type 2 - Call Out": 10
+      },
+      "confidence_values": 259
+    },
+    "schedule": {
+      "pages": 1,
+      "block_counts": {
+        "Door Reference": 1,
+        "Keynote Area": 1,
+        "LLM_RESPONSE": 1,
+        "Legend/Key Area": 1,
+        "Plan Area": 1,
+        "Tag 1 - Oval": 1,
+        "Tag 2 - Rectangle": 1,
+        "Tag 3 - Hexagon": 1,
+        "Tag 4 - Text": 1,
+        "Tag 5 - Circle": 1,
+        "Tag 7 - Rhomboid": 1,
+        "Tag 8 - Diamond": 1,
+        "Tag 9 - Triangle": 1
+      }
+    },
+    "human_feedback": {
+      "feedback_items": 0,
+      "decisions": {},
+      "categories": {}
+    }
+  },
+  "pages_by_category": {
+    "mechanical": [
+      143
+    ],
+    "panel": [
+      140,
+      141,
+      142
+    ],
+    "plumbing": [
+      173
+    ],
+    "validation": [
+      13,
+      15,
+      19,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      42,
+      44,
+      45,
+      58,
+      59,
+      60,
+      61,
+      62,
+      67,
+      68,
+      69,
+      70,
+      73,
+      77,
+      80,
+      81,
+      82,
+      84,
+      96
+    ]
+  },
+  "examples_by_pattern": {
+    "unused_bboxes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "B104",
+      "B107",
+      "B109",
+      "C112"
+    ],
+    "unused_mechanical": [
+      "CD-1",
+      "CR-1D",
+      "EG-1",
+      "EG-1D",
+      "HP-221",
+      "SG-1D"
+    ],
+    "unused_plumbing": [
+      "TV-1"
+    ],
+    "used_bboxes": [
+      "B205",
+      "B302",
+      "B303",
+      "B304",
+      "B305",
+      "B309",
+      "B312",
+      "D203",
+      "D207",
+      "F208",
+      "F211",
+      "F212"
+    ],
+    "used_mechanical": [
+      "AF-1",
+      "CD-1D",
+      "CEF-1",
+      "CEF-2",
+      "CR-1",
+      "DB-1",
+      "EV-1",
+      "EV-2",
+      "HP-1",
+      "IF-1",
+      "PF-1",
+      "SG-1"
+    ],
+    "used_plumbing": [
+      "BT-1",
+      "BT-2",
+      "ET-1",
+      "ET-2",
+      "ET-3",
+      "ET-4",
+      "FCO",
+      "FD-1",
+      "FS-1",
+      "FV-1",
+      "HB-1",
+      "HH-1"
+    ],
+    "verified_electrical_panel": [
+      "1B",
+      "2B",
+      "H1A",
+      "H1B",
+      "H24A",
+      "H24B",
+      "H24C",
+      "H3A",
+      "H3B"
+    ],
+    "verified_mechanical_equipment": [
+      "C"
+    ]
+  }
+}

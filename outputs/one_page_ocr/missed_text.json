@@ -1,0 +1,10 @@
+{
+  "missed": [],
+  "uncertain": [],
+  "summary": {
+    "confirmed_misses": 0,
+    "uncertain_detections": 0,
+    "pages_with_misses": 0,
+    "pages_with_uncertain": 0
+  }
+}

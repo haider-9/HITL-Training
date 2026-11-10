@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "checked": {
+    "validation_pages": 1,
+    "details_pages": 1,
+    "missed_items": 0,
+    "uncertain_items": 0,
+    "annotated_pdf_exists": true
+  }
+}

@@ -1,0 +1,220 @@
+{
+    "purpose": "Human review checklist generated from raw and LLM-checked JSON outputs",
+    "instructions": "Check each listed title against the PDF. If titles_to_check is empty, inspect the whole page for missing or incorrect items.",
+    "source_pdf": "source/pdfs/5ee2d592b0fb4656bc69b46fa759c999pre.pdf",
+    "records": [
+        {
+            "discipline": "mechanical",
+            "page": 143,
+            "titles_to_check": [
+                "CD-1",
+                "CR-1D",
+                "EG-1",
+                "EG-1D",
+                "HP-221",
+                "SG-1D"
+            ],
+            "why_flagged": "unused mechanical titles and unverified result",
+            "human_checked": null,
+            "notes": "it did not detect many text which are AF-1, C, DB-1, EV-1, EV-2, HP-1, HP-2, FC-1, FC-2, HP-114, HP-122, HP-123, HP-124, HP-125, HP-126, HP-132, HP-133, HP-134, HP-135, HP-136, HP-211, HP-212, HP-213, HP-215, HP-216, HP-222, HP-223, HP-225, HP-226, HP-232, HP-233, HP-314, HP-232, HP-333, HP-314, HP-322, HP-323, HP-324, HP-325, HP-326, HP-332, HP-333, HP-334, HP-335, HP-336, HP-111, HP-112, HP-113, HP-121, HP-131, HP-214, HP-224, HP-231, HP-234, HP-311, HP-312, HP-313"
+        },
+        {
+            "discipline": "mechanical",
+            "page": 169,
+            "titles_to_check": [],
+            "why_flagged": "unverified result",
+            "human_checked": null,
+            "notes": ""
+        },
+        {
+            "discipline": "mechanical",
+            "page": 170,
+            "titles_to_check": [],
+            "why_flagged": "11 plan areas; inspect for missed or duplicated associations",
+            "human_checked": null,
+            "notes": ""
+        },
+        {
+            "discipline": "mechanical",
+            "page": 171,
+            "titles_to_check": [],
+            "why_flagged": "5 plan areas; inspect for missed or duplicated associations",
+            "human_checked": null,
+            "notes": ""
+        },
+        {
+            "discipline": "panel",
+            "page": 99,
+            "titles_to_check": [],
+            "why_flagged": "unverified result",
+            "human_checked": null,
+            "notes": ""
+        },
+        {
+            "discipline": "panel",
+            "page": 100,
+            "titles_to_check": [],
+            "why_flagged": "unverified result",
+            "human_checked": null,
+            "notes": ""
+        },
+        {
+            "discipline": "panel",
+            "page": 102,
+            "titles_to_check": [],
+            "why_flagged": "unverified result and 2 plan areas",
+            "human_checked": null,
+            "notes": ""
+        },
+        {
+            "discipline": "panel",
+            "page": 129,
+            "titles_to_check": [],
+            "why_flagged": "5 plan areas; inspect for missed or duplicated associations",
+            "human_checked": null,
+            "notes": ""
+        },
+        {
+            "discipline": "panel",
+            "page": 135,
+            "titles_to_check": [],
+            "why_flagged": "6 plan areas; inspect for missed or duplicated associations",
+            "human_checked": null,
+            "notes": ""
+        },
+        {
+            "discipline": "panel",
+            "page": 136,
+            "titles_to_check": [],
+            "why_flagged": "unverified result and 4 plan areas",
+            "human_checked": null,
+            "notes": ""
+        },
+        {
+            "discipline": "panel",
+            "page": 140,
+            "titles_to_check": [
+                "1B",
+                "2B",
+                "H1A",
+                "H1B"
+            ],
+            "why_flagged": "unused panel titles and unverified result",
+            "human_checked": null,
+            "notes": ""
+        },
+        {
+            "discipline": "panel",
+            "page": 141,
+            "titles_to_check": [
+                "H24A",
+                "H24B",
+                "H3A",
+                "H3B"
+            ],
+            "why_flagged": "unused panel titles and unverified result",
+            "human_checked": null,
+            "notes": ""
+        },
+        {
+            "discipline": "panel",
+            "page": 142,
+            "titles_to_check": [
+                "H24C"
+            ],
+            "why_flagged": "unused panel title and unverified result",
+            "human_checked": null,
+            "notes": ""
+        },
+        {
+            "discipline": "plumbing",
+            "page": 173,
+            "titles_to_check": [
+                "TV-1"
+            ],
+            "why_flagged": "unused plumbing title and unverified result",
+            "human_checked": null,
+            "notes": ""
+        },
+        {
+            "discipline": "plumbing",
+            "page": 174,
+            "titles_to_check": [],
+            "why_flagged": "unverified result",
+            "human_checked": null,
+            "notes": ""
+        },
+        {
+            "discipline": "plumbing",
+            "page": 184,
+            "titles_to_check": [],
+            "why_flagged": "unverified result and no plan areas",
+            "human_checked": null,
+            "notes": ""
+        },
+        {
+            "discipline": "plumbing",
+            "page": 193,
+            "titles_to_check": [],
+            "why_flagged": "unverified result",
+            "human_checked": null,
+            "notes": ""
+        },
+        {
+            "discipline": "plumbing",
+            "page": 194,
+            "titles_to_check": [],
+            "why_flagged": "unverified result",
+            "human_checked": null,
+            "notes": ""
+        },
+        {
+            "discipline": "plumbing",
+            "page": 204,
+            "titles_to_check": [],
+            "why_flagged": "unverified result and no plan areas",
+            "human_checked": null,
+            "notes": ""
+        },
+        {
+            "discipline": "plumbing",
+            "page": 207,
+            "titles_to_check": [],
+            "why_flagged": "unverified result",
+            "human_checked": null,
+            "notes": ""
+        },
+        {
+            "discipline": "plumbing",
+            "page": 209,
+            "titles_to_check": [],
+            "why_flagged": "unverified result and 14 plan areas; inspect for missed or duplicated associations",
+            "human_checked": null,
+            "notes": ""
+        },
+        {
+            "discipline": "plumbing",
+            "page": 210,
+            "titles_to_check": [],
+            "why_flagged": "10 plan areas; inspect for missed or duplicated associations",
+            "human_checked": null,
+            "notes": ""
+        },
+        {
+            "discipline": "plumbing",
+            "page": 211,
+            "titles_to_check": [],
+            "why_flagged": "8 plan areas; inspect for missed or duplicated associations",
+            "human_checked": null,
+            "notes": ""
+        },
+        {
+            "discipline": "plumbing",
+            "page": 212,
+            "titles_to_check": [],
+            "why_flagged": "unverified result and 2 plan areas",
+            "human_checked": null,
+            "notes": ""
+        }
+    ]
+}

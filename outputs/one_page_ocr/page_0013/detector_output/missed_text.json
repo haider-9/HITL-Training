@@ -1,0 +1,17 @@
+{
+  "document": {
+    "pdf_path": "source/pdfs/5ee2d592b0fb4656bc69b46fa759c999pre.pdf",
+    "page_count": 1,
+    "generated_at": "2026-11-07T03:40:47.815449+00:00",
+    "disclaimer": "Machine-generated OCR/PDF-text comparison. Not human-verified.",
+    "definition": "missed = visibly present and confidently detected, but absent from the legacy JSON for that page; uncertain = OCR evidence below the confirmation threshold."
+  },
+  "summary": {
+    "confirmed_misses": 0,
+    "uncertain_detections": 0,
+    "pages_with_misses": 0,
+    "pages_with_uncertain": 0
+  },
+  "missed": [],
+  "uncertain": []
+}

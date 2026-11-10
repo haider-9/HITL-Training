@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "instructions": "After checking the annotated page, edit pages.<page>. Set reviewed=true and fill accepted, rejected, or added.",
+  "pages": {
+    "13": {
+      "reviewed": false,
+      "accepted": [],
+      "rejected": [],
+      "added": [],
+      "notes": ""
+    }
+  }
+}

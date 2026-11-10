@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Source PDFs (keep locally, don't upload)
+source/pdfs/*.pdf
+
+# Generated output
+outputs/

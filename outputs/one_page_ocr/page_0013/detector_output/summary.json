@@ -1,0 +1,38 @@
+{
+  "document": {
+    "pdf_path": "source/pdfs/5ee2d592b0fb4656bc69b46fa759c999pre.pdf",
+    "page_count": 1,
+    "page_index_base": 0,
+    "generated_at": "2026-11-07T03:40:47.815689+00:00",
+    "elapsed_seconds": 59.55,
+    "disclaimer": "Machine-generated OCR/PDF-text comparison. Not human-verified."
+  },
+  "page_counts": {
+    "pdf_pages": 1,
+    "validation_pages": 1,
+    "details_pages": 1,
+    "pages_with_detections": 1,
+    "pages_without_detections": 0,
+    "pages_with_misses": 0,
+    "pages_with_uncertain": 0
+  },
+  "detections": {
+    "total_important_detections": 7,
+    "confirmed_detections": 7,
+    "uncertain_detections": 0,
+    "reference_matched": 7,
+    "confirmed_misses": 0,
+    "by_category": {
+      "keynote": 7
+    },
+    "by_source": {
+      "ocr": 7
+    }
+  },
+  "validation": {
+    "used_entries": 7,
+    "unused_entries": 0,
+    "valid_keynotes": 0,
+    "invalid_keynotes": 0
+  }
+}

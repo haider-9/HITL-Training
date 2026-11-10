@@ -1,0 +1,255 @@
+{
+  "page_index": 13,
+  "pdf_page_number": 14,
+  "page_width": 2592.0,
+  "page_height": 1728.0,
+  "discipline": "architectural/other",
+  "detections": [
+    {
+      "text": "4",
+      "normalized_text": "4",
+      "ocr_confidence": 0.93,
+      "bbox": [
+        1411.68,
+        404.16,
+        1422.24,
+        414.72
+      ],
+      "source": "ocr",
+      "category": "keynote",
+      "matched_reference": "4",
+      "already_present_in_old_json": true,
+      "visually_detected": true,
+      "reason": "Detected on the PDF and matched to the legacy reference JSON.",
+      "pattern": "keynote_number",
+      "is_uncertain": false,
+      "confirmed": true,
+      "used_as_keynote": false,
+      "count_as_text": true,
+      "reference_bbox": [
+        1966.021171875,
+        1296.759638671875,
+        2425.862109375,
+        1694.88
+      ],
+      "reference_block": "unused_bboxes",
+      "reference_file": "validation_dict_d7e081705adb4b20a0b45fcfecb673a2.json",
+      "related_old_json_files": [
+        "validation_dict_d7e081705adb4b20a0b45fcfecb673a2.json"
+      ]
+    },
+    {
+      "text": "7",
+      "normalized_text": "7",
+      "ocr_confidence": 0.6,
+      "bbox": [
+        2418.72,
+        746.88,
+        2431.2,
+        756.96
+      ],
+      "source": "ocr",
+      "category": "keynote",
+      "matched_reference": "7",
+      "already_present_in_old_json": true,
+      "visually_detected": true,
+      "reason": "Detected on the PDF and matched to the legacy reference JSON.",
+      "pattern": "keynote_number",
+      "is_uncertain": false,
+      "confirmed": true,
+      "used_as_keynote": false,
+      "count_as_text": true,
+      "reference_bbox": [
+        1966.021171875,
+        1296.759638671875,
+        2425.862109375,
+        1694.88
+      ],
+      "reference_block": "unused_bboxes",
+      "reference_file": "validation_dict_d7e081705adb4b20a0b45fcfecb673a2.json",
+      "related_old_json_files": [
+        "validation_dict_d7e081705adb4b20a0b45fcfecb673a2.json"
+      ]
+    },
+    {
+      "text": "5",
+      "normalized_text": "5",
+      "ocr_confidence": 0.7,
+      "bbox": [
+        1209.6,
+        915.84,
+        1212.0,
+        920.64
+      ],
+      "source": "ocr",
+      "category": "keynote",
+      "matched_reference": "5",
+      "already_present_in_old_json": true,
+      "visually_detected": true,
+      "reason": "Detected on the PDF and matched to the legacy reference JSON.",
+      "pattern": "keynote_number",
+      "is_uncertain": false,
+      "confirmed": true,
+      "used_as_keynote": false,
+      "count_as_text": true,
+      "reference_bbox": [
+        1966.021171875,
+        1296.759638671875,
+        2425.862109375,
+        1694.88
+      ],
+      "reference_block": "unused_bboxes",
+      "reference_file": "validation_dict_d7e081705adb4b20a0b45fcfecb673a2.json",
+      "related_old_json_files": [
+        "validation_dict_d7e081705adb4b20a0b45fcfecb673a2.json"
+      ]
+    },
+    {
+      "text": "6",
+      "normalized_text": "6",
+      "ocr_confidence": 0.93,
+      "bbox": [
+        1821.12,
+        915.84,
+        1824.48,
+        920.64
+      ],
+      "source": "ocr",
+      "category": "keynote",
+      "matched_reference": "6",
+      "already_present_in_old_json": true,
+      "visually_detected": true,
+      "reason": "Detected on the PDF and matched to the legacy reference JSON.",
+      "pattern": "keynote_number",
+      "is_uncertain": false,
+      "confirmed": true,
+      "used_as_keynote": false,
+      "count_as_text": true,
+      "reference_bbox": [
+        1966.021171875,
+        1296.759638671875,
+        2425.862109375,
+        1694.88
+      ],
+      "reference_block": "unused_bboxes",
+      "reference_file": "validation_dict_d7e081705adb4b20a0b45fcfecb673a2.json",
+      "related_old_json_files": [
+        "validation_dict_d7e081705adb4b20a0b45fcfecb673a2.json"
+      ]
+    },
+    {
+      "text": "2",
+      "normalized_text": "2",
+      "ocr_confidence": 0.93,
+      "bbox": [
+        2022.24,
+        1406.4,
+        2028.0,
+        1413.6
+      ],
+      "source": "ocr",
+      "category": "keynote",
+      "matched_reference": "2",
+      "already_present_in_old_json": true,
+      "visually_detected": true,
+      "reason": "Detected on the PDF and matched to the legacy reference JSON.",
+      "pattern": "keynote_number",
+      "is_uncertain": false,
+      "confirmed": true,
+      "used_as_keynote": false,
+      "count_as_text": true,
+      "reference_bbox": [
+        1966.021171875,
+        1296.759638671875,
+        2425.862109375,
+        1694.88
+      ],
+      "reference_block": "unused_bboxes",
+      "reference_file": "validation_dict_d7e081705adb4b20a0b45fcfecb673a2.json",
+      "related_old_json_files": [
+        "validation_dict_d7e081705adb4b20a0b45fcfecb673a2.json"
+      ]
+    },
+    {
+      "text": "3",
+      "normalized_text": "3",
+      "ocr_confidence": 0.92,
+      "bbox": [
+        1842.24,
+        1497.12,
+        1848.0,
+        1503.36
+      ],
+      "source": "ocr",
+      "category": "keynote",
+      "matched_reference": "3",
+      "already_present_in_old_json": true,
+      "visually_detected": true,
+      "reason": "Detected on the PDF and matched to the legacy reference JSON.",
+      "pattern": "keynote_number",
+      "is_uncertain": false,
+      "confirmed": true,
+      "used_as_keynote": false,
+      "count_as_text": true,
+      "reference_bbox": [
+        1966.021171875,
+        1296.759638671875,
+        2425.862109375,
+        1694.88
+      ],
+      "reference_block": "unused_bboxes",
+      "reference_file": "validation_dict_d7e081705adb4b20a0b45fcfecb673a2.json",
+      "related_old_json_files": [
+        "validation_dict_d7e081705adb4b20a0b45fcfecb673a2.json"
+      ]
+    },
+    {
+      "text": "1",
+      "normalized_text": "1",
+      "ocr_confidence": 0.88,
+      "bbox": [
+        1861.92,
+        1554.72,
+        1864.32,
+        1560.96
+      ],
+      "source": "ocr",
+      "category": "keynote",
+      "matched_reference": "1",
+      "already_present_in_old_json": true,
+      "visually_detected": true,
+      "reason": "Detected on the PDF and matched to the legacy reference JSON.",
+      "pattern": "keynote_number",
+      "is_uncertain": false,
+      "confirmed": true,
+      "used_as_keynote": false,
+      "count_as_text": true,
+      "reference_bbox": [
+        1966.021171875,
+        1296.759638671875,
+        2425.862109375,
+        1694.88
+      ],
+      "reference_block": "unused_bboxes",
+      "reference_file": "validation_dict_d7e081705adb4b20a0b45fcfecb673a2.json",
+      "related_old_json_files": [
+        "validation_dict_d7e081705adb4b20a0b45fcfecb673a2.json"
+      ]
+    }
+  ],
+  "keynotes": [],
+  "reference_only_items": [],
+  "invalid_outer_keynotes": [],
+  "counts": {
+    "detections": 7,
+    "confirmed_detections": 7,
+    "uncertain_detections": 0,
+    "missed": 0,
+    "reference_only": 0,
+    "valid_keynotes": 0,
+    "invalid_keynotes": 0
+  },
+  "missed_items": [],
+  "uncertain_items": [],
+  "annotated_image": "/home/haider/Documents/hitl-training/6-11-26/outputs/one_page_ocr/page_0013/work/page_0013.jpg"
+}
